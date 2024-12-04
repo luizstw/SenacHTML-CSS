@@ -1,0 +1,72 @@
+html{
+    color: white;
+    background-color: black;
+}
+
+h1, p{
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+iframe{
+    width: 100vh;
+    height: 60vh;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.bar {
+    background-color: #181717;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.logon {
+    display: flex;
+    color: white;
+}
+
+.home{
+    color: #181717;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    gap: 6rem;
+    margin-right: 20px;
+}
+
+#conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cad{
+    text-align: center;
+}

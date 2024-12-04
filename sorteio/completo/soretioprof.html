@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sorteioprof.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sorteador de números</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container_conteudo">
+            <div class="container_informacoes">
+                <div class="container_texto">
+                    <h1>Gerador de Número<span class="container_texto-azul">da Sorte</span></h1>
+
+                    <div class="container_campo">
+                        <label class="texto_paragrafo">Quantidade de Números</label>
+                        <input class="container_input" id="quantidade" type="number" min="1">
+                    </div>
+
+                    <div class="container_campo">
+                        <label class="texto_paragrafo">Do Número</label>
+                        <input class="container_input" id="de" type="number" min="1">
+                    </div>
+
+                    <div class="container_campo">
+                        <label class="texto_paragrafo">Até o Número</label>
+                        <input class="container_input" id="ate" type="number" min="1">
+                    </div>
+                </div>
+
+                <div class="container_botoes">
+                    <button onclick="sortear()" id="btn-sortear" class="container_botao">Sortear</button>
+                    <button onclick="reiniciar()" id="btn-reiniciar" class="container_botao-desabilitado">Reiniciar</button>
+                </div>
+
+                <div class="container_texto" id="resultado">
+                    <label class="texto_paragrafo">Números Sorteados: Nenhum até Agora</label>
+                </div>
+            </div>
+
+            <img src="OIP.jpg" alt="Felipe" class="container_imagem">
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
